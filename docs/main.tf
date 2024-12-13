@@ -101,7 +101,7 @@ resource "docker_container" "jenkins_blueocean" {
   volumes {
     volume_name    = docker_volume.jenkins-docker-certs.name
     container_path = "/certs/client"
-	read_only = true
+	  read_only = true
   }
 
   networks_advanced {
