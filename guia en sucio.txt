@@ -1,7 +1,0 @@
-docker build -t myjenkins-python .
-
-terraform init
-terraform apply
-yes
-
-docker network prune
